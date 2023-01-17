@@ -106,20 +106,58 @@ h1{
     margin-top: 3%;
 }
 .soustitre{
+    margin-top: 3%;
     font-size: 20px;
     font-family: 'DM Sans';
+    text-align: center;
     margin-left: 5%;
     margin-right: 5%;
 }
 .test{
+    margin-top: 5%;
     display: flex;
     justify-content: center;
-    height: 400px;
-}
-.marrakech{
    
+}
+
+.marrakech{
+
+   box-shadow: 0 0 10px;
+   height: 345px;
+   width: 873px;
+    
+}
+.texte1, .texte2{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.montagne, .fes{
+    width: 330px;
+    height: 600px;
     box-shadow: 0 0 10px;
 }
+.montagne{
+    margin-left: 5%;
+}
+.fes{
+    margin-right: 5%;
+}
+.bas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.bas p{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
 
 .footer{
     background-color: #F4A785;

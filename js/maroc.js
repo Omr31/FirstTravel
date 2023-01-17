@@ -3,6 +3,6 @@ $(".burger").click(function(){
    
 });
 $(".close").click(function(){
-    $(".slide").animate({left: "-150px"});
+    $(".slide").animate({left: "-170px"});
     
 })
