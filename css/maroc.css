@@ -101,7 +101,25 @@ nav{
     border-radius: 12px;
 }
 
-
+h1{
+    text-align: center;
+    margin-top: 3%;
+}
+.soustitre{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.test{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+.marrakech{
+   
+    box-shadow: 0 0 10px;
+}
 
 .footer{
     background-color: #F4A785;
