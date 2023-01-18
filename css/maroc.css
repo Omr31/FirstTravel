@@ -156,6 +156,7 @@ h1{
     font-family: 'DM Sans';
     margin-left: 3%;
     margin-right: 3%;
+    
 }
 
 
@@ -232,6 +233,30 @@ footer a:hover{
 .icone a{
    margin-right: 2%;
 }
+@media screen and (max-width : 1244px){
+    .bas p{
+        
+        margin-right: 2%;
+    }
+    
+}
+@media screen and (max-width : 1229px){
+    
+
+    .montagne, .fes{
+        width: 250px;
+        height: 500px;
+    }
+    .bas p{
+        margin-left: 2%;
+    }
+    .montagne{
+        margin-left: 3%;
+    }
+    .fes{
+        margin-right: 3%;
+    }
+}
 @media screen and (max-width : 992px){
     header{
         height: 233px;
@@ -269,6 +294,30 @@ footer a:hover{
     }
     nav {
         display: none;
+    }
+    
+    .marrakech{
+        width: 500px;
+    }
+    .texte1, .texte2{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .bas{
+        display: flex;
+        flex-direction: column;
+    }
+    .bas p{
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .montagne, .fes{
+        width: 398px;
+        margin: auto;
+    }
+    .fes{
+        margin-top: 3%;
     }
 }
 
