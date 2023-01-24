@@ -102,64 +102,67 @@ nav{
 }
 
 h1{
+    font-family: 'DM Serif Display';
     text-align: center;
     margin-top: 3%;
 }
-.soustitre{
-    margin-top: 3%;
-    font-size: 20px;
-    font-family: 'DM Sans';
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.test{
-    margin-top: 5%;
+.image{
     display: flex;
     justify-content: center;
-   
-}
-
-.marrakech{
-
-   box-shadow: 0 0 10px;
-   height: 345px;
-   width: 873px;
-    
-}
-.texte1, .texte2{
-    font-size: 20px;
-    font-family: 'DM Sans';
-    margin-left: 5%;
-    margin-right: 5%;
     margin-top: 3%;
 }
-
-.montagne, .fes{
-    width: 330px;
-    height: 600px;
+.dakar{
+    width: 873px;
+    height: 298px;
     box-shadow: 0 0 10px;
 }
-.montagne{
-    margin-left: 5%;
-}
-.fes{
-    margin-right: 5%;
-}
-.bas{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
-}
-.bas p{
+.haut{
     font-size: 20px;
     font-family: 'DM Sans';
-    margin-left: 3%;
-    margin-right: 3%;
-    
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
+.article1{
+    display: flex;
+    margin-top: 5%;
 
-
+}
+.article1 p{
+    font-family: 'DM Sans';
+    font-size: 20px;
+    margin-right: 5%;
+    margin-left: 3%;
+}
+.rue_senegal{
+    width: 25%;
+    height: 524px;
+    margin-left: 5%;
+    box-shadow: 0 0 10px;
+}
+.milieu{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.article2{
+    display: flex;
+    margin-top: 3%;
+}
+.article2 p{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    margin-left: 5%;
+    margin-right: 3%;
+}
+.cathedrale{
+    width: 23%;
+    height: 369px;
+    margin-right: 5%;
+    box-shadow: 0 0 10px;
+}
 .footer{
     background-color: #F4A785;
     height: 356px;
@@ -233,30 +236,7 @@ footer a:hover{
 .icone a{
    margin-right: 2%;
 }
-@media screen and (max-width : 1244px){
-    .bas p{
-        
-        margin-right: 2%;
-    }
-    
-}
-@media screen and (max-width : 1229px){
-    
 
-    .montagne, .fes{
-        width: 250px;
-        height: 500px;
-    }
-    .bas p{
-        margin-left: 2%;
-    }
-    .montagne{
-        margin-left: 3%;
-    }
-    .fes{
-        margin-right: 3%;
-    }
-}
 @media screen and (max-width : 992px){
     header{
         height: 233px;
@@ -295,75 +275,40 @@ footer a:hover{
     nav {
         display: none;
     }
-    
-    .marrakech {
-        width: 500px;
+    .dakar{
+        width: 80%;
     }
-    .texte1, .texte2{
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-    .bas{
+    .article1{
         display: flex;
         flex-direction: column;
+        
     }
-    .bas p{
-        margin-top: 3%;
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-    .montagne, .fes{
-        width: 398px;
-        margin: auto;
-    }
-    .fes{
+    .article1 p{
+        margin-left: 5%;
         margin-top: 3%;
     }
-}
-@media screen and(max-width : 681px){
-    img.marrakech {
-        width: 500px;
+    .rue_senegal{
+        margin: 0 auto;
+        width: 50%;
     }
-}
-@media screen and(max-width : 651px){
-    header{
-        height: 280px;
-    }
-    .titre{
-        margin-left: 16%;
-    }
-    a .logo{
-        margin-top: 27%;
-    }
-    .first{
-        margin-top: 12%;
-        position: relative;
-        left: -27px;
-    }
-    
-    .accroche{
-        font-size: 16px;
-        position: relative;
-        top: 12px;
-        left: -228px;
-        margin-right: 0;
-        text-align: left;
-
-    }
-    .burger{
-        border: 1px solid #EFB41B;
-        box-shadow: 0 0 8px white;
-        background-color: #EFB41B;
+    .article2{
         display: flex;
-        position: absolute;
-        top: 65px;
-        left: 90%;
+        flex-direction: column-reverse;
+        
     }
-    nav {
-        display: none;
+    .article2 p{
+        margin-right: 5%;
+        margin-top: 3%;
     }
-}
+    .cathedrale{
+        margin: 0 auto;
+        width: 50%;
+    }
 
+    .footer{
+        margin-top: 5%;
+    }
+} 
 @media screen and (max-width : 500px){
     header{
         height: 280px;
@@ -401,9 +346,20 @@ footer a:hover{
     nav {
         display: none;
     }
-
-    .marrakech{
-        width: 400px;
+    .rue_senegal{
+        width: 80%;
+    }
+    .cathedrale{
+        width: 80%;
+    }
+    .haut, .milieu, .article1 p, .article2 p{
+        text-align: center;
+    }
+    .milieu{
+        margin-top: 5%;
+    }
+    .article2{
+        margin-top: 7%;
     }
     .footer{
         display: flex;
@@ -433,5 +389,3 @@ footer a:hover{
         margin-top: -67px;
     }
 }
-
-
